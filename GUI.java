@@ -71,7 +71,7 @@ public class GUI {
     }
     
     public void displayGUI(){
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("AWESOME BUDGET APP");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel mainPanel = new JPanel(new GridBagLayout());
